@@ -1,0 +1,6 @@
+texture-scale: float
+include: cube_faces
+include: uniform_cube_texture
+texture: wood
+normals: auto
+solid-faces: bottom top west east north south
