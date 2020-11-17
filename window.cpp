@@ -71,13 +71,7 @@ void Window::create()
     
     if (glfwRawMouseMotionSupported())
         glfwSetInputMode(window, GLFW_RAW_MOUSE_MOTION, GLFW_TRUE);
-    
-    
-    // XXX move to OpenGL setup code
-    glEnable(GL_DEPTH_TEST);
-    glEnable(GL_CULL_FACE);
-    glCullFace(GL_BACK);
-    
+        
     window_ptr = (void *)window;
 }
 
